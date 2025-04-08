@@ -20,3 +20,25 @@ We evaluated SALT on two benchmarks:
 #### Qualitative Analysis   
 - **Without Layout Guidance**: Stable Diffusion (baseline)、Attend-and-Excite (cross-attention manipulation only)、MultiDiffusion (multi-region blending)
 - **With Layout Guidance**: GLIGEN (strict bounding box enforcement)、LayoutDiffusion (region-confined generation)
+
+### Code 
+
+Our implementation is inspired by [Attend-and-Excite](https://github.com/yuval-alaluf/Attend-and-Excite).  
+
+The evaluation of our work is adapted from [HRS](https://github.com/eslambakr/HRS_benchmark).
+
+### Citation
+If you find this project useful in your research, please consider citing:
+```bibtex
+@INPROCEEDINGS{10890155,
+  author={Song, Yuxiang and Long, Zhaoguang and Lan, Man and Sun, Changzhi and Zhou, Aimin and Chen, Yuefeng and Yuan, Hao and Cao, Fei},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Semantic Attention and LLM-based Layout Guidance for Text-to-Image Generation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Training;Salt;Statistical analysis;Layout;Semantics;Text to image;Benchmark testing;Signal processing;Diffusion models;Speech processing;diffusion models;text-to-image generation;attention mechanism;training-free method},
+  doi={10.1109/ICASSP49660.2025.10890155}
+}
+
